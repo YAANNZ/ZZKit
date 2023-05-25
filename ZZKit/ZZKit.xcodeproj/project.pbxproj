@@ -75,10 +75,10 @@
 		752E219D2A1E521C00D17990 /* NSBundle+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21322A1E521C00D17990 /* NSBundle+YYAdd.m */; };
 		752E219E2A1E521C00D17990 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21332A1E521C00D17990 /* NSObject+YYAdd.m */; };
 		752E219F2A1E521C00D17990 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21362A1E521C00D17990 /* NSData+YYAdd.m */; };
-		752E21A02A1E521C00D17990 /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21372A1E521C00D17990 /* NSThread+YYAdd.m */; };
+		752E21A02A1E521C00D17990 /* NSThread+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21372A1E521C00D17990 /* NSThread+YYAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		752E21A12A1E521C00D17990 /* NSKeyedUnarchiver+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21392A1E521C00D17990 /* NSKeyedUnarchiver+YYAdd.m */; };
 		752E21A22A1E521C00D17990 /* NSTimer+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E213A2A1E521C00D17990 /* NSTimer+YYAdd.m */; };
-		752E21A32A1E521C00D17990 /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E213D2A1E521C00D17990 /* NSObject+YYAddForARC.m */; };
+		752E21A32A1E521C00D17990 /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E213D2A1E521C00D17990 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		752E21A42A1E521C00D17990 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E213E2A1E521C00D17990 /* NSDate+YYAdd.m */; };
 		752E21A52A1E521C00D17990 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21402A1E521C00D17990 /* NSString+YYAdd.m */; };
 		752E21A62A1E521C00D17990 /* NSNotificationCenter+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21422A1E521C00D17990 /* NSNotificationCenter+YYAdd.m */; };
