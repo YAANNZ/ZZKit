@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -98,6 +98,7 @@
 		752E21B42A1E521C00D17990 /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21622A1E521C00D17990 /* YYTimer.m */; };
 		752E21B52A1E521C00D17990 /* YYThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21632A1E521C00D17990 /* YYThreadSafeArray.m */; };
 		752E21B62A1E521C00D17990 /* YYReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E21642A1E521C00D17990 /* YYReachability.m */; };
+		C1BFF211D92DC028618F7B22 /* Pods_ZZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B8BA83C203AF83AC7CF3 /* Pods_ZZKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2755D4E80DDAF5A0FA438C90 /* Pods-ZZKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKit.release.xcconfig"; path = "Target Support Files/Pods-ZZKit/Pods-ZZKit.release.xcconfig"; sourceTree = "<group>"; };
 		752E1B652A1E4C7F00D17990 /* ZZKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		752E1B682A1E4C7F00D17990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		752E1B692A1E4C7F00D17990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -299,6 +301,8 @@
 		752E21632A1E521C00D17990 /* YYThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYThreadSafeArray.m; sourceTree = "<group>"; };
 		752E21642A1E521C00D17990 /* YYReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYReachability.m; sourceTree = "<group>"; };
 		752E21652A1E521C00D17990 /* YYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSentinel.h; sourceTree = "<group>"; };
+		AB92B8BA83C203AF83AC7CF3 /* Pods_ZZKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC358D6CE527A36627CD4716 /* Pods-ZZKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKit.debug.xcconfig"; path = "Target Support Files/Pods-ZZKit/Pods-ZZKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +310,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BFF211D92DC028618F7B22 /* Pods_ZZKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +331,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2437D03A7975657580D59426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B8BA83C203AF83AC7CF3 /* Pods_ZZKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60AE72A0B5B8622AA43B9806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC358D6CE527A36627CD4716 /* Pods-ZZKit.debug.xcconfig */,
+				2755D4E80DDAF5A0FA438C90 /* Pods-ZZKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		752E1B5C2A1E4C7F00D17990 = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +355,8 @@
 				752E1B832A1E4C8100D17990 /* ZZKitTests */,
 				752E1B8D2A1E4C8100D17990 /* ZZKitUITests */,
 				752E1B662A1E4C7F00D17990 /* Products */,
+				60AE72A0B5B8622AA43B9806 /* Pods */,
+				2437D03A7975657580D59426 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -664,9 +688,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 752E1B942A1E4C8100D17990 /* Build configuration list for PBXNativeTarget "ZZKit" */;
 			buildPhases = (
+				6273C26BC6CD9D4E2A9199FD /* [CP] Check Pods Manifest.lock */,
 				752E1B612A1E4C7F00D17990 /* Sources */,
 				752E1B622A1E4C7F00D17990 /* Frameworks */,
 				752E1B632A1E4C7F00D17990 /* Resources */,
+				749263965BF42B5C534F0996 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -737,7 +763,7 @@
 				};
 			};
 			buildConfigurationList = 752E1B602A1E4C7F00D17990 /* Build configuration list for PBXProject "ZZKit" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -783,6 +809,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6273C26BC6CD9D4E2A9199FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749263965BF42B5C534F0996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZKit/Pods-ZZKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		752E1B612A1E4C7F00D17990 /* Sources */ = {
@@ -1041,11 +1109,13 @@
 		};
 		752E1B952A1E4C8100D17990 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC358D6CE527A36627CD4716 /* Pods-ZZKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZZKit/ZZLib/YYKit/Vendor",
@@ -1065,6 +1135,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.ZZKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1072,11 +1143,13 @@
 		};
 		752E1B962A1E4C8100D17990 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2755D4E80DDAF5A0FA438C90 /* Pods-ZZKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZZKit/ZZLib/YYKit/Vendor",
@@ -1096,6 +1169,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zz.ZZKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
