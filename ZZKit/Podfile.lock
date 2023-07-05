@@ -1,16 +1,22 @@
 PODS:
   - CTMediator (48)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - CTMediator
+  - YYKit
 
 SPEC REPOS:
   trunk:
     - CTMediator
+    - YYKit
 
 SPEC CHECKSUMS:
   CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: d57e967b96c95a68785c09f3eec4caaddcc5552f
+PODFILE CHECKSUM: 6ac4aa540b93f63d05c0941bf4067119fa125a63
 
 COCOAPODS: 1.10.2
