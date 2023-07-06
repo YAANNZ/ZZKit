@@ -6,6 +6,7 @@
 //
 
 #import "ZZHomeViewController.h"
+#import "ZZSettingViewController.h"
 
 @interface ZZHomeViewController ()
 
@@ -15,7 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(openSetting) forControlEvents:UIControlEventTouchUpInside];
+    btn.frame = CGRectMake(100, 200, 100, 100);
+    
+}
+
+- (void)openSetting {
+    ZZSettingViewController *vc = [ZZSettingViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
