@@ -17,6 +17,12 @@
 		752E1B852A1E4C8100D17990 /* ZZKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B842A1E4C8100D17990 /* ZZKitTests.m */; };
 		752E1B8F2A1E4C8100D17990 /* ZZKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B8E2A1E4C8100D17990 /* ZZKitUITests.m */; };
 		752E1B912A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B902A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m */; };
+		7C5A07282A565F0600F11162 /* ZZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A07262A565F0600F11162 /* ZZHomeViewController.m */; };
+		7C5A07292A565F0600F11162 /* ZZHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A07272A565F0600F11162 /* ZZHomeViewController.xib */; };
+		7C5A072D2A565F1600F11162 /* ZZProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A072B2A565F1600F11162 /* ZZProfileViewController.m */; };
+		7C5A072E2A565F1600F11162 /* ZZProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A072C2A565F1600F11162 /* ZZProfileViewController.xib */; };
+		7C5A07342A565FB300F11162 /* ZZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A07322A565FB300F11162 /* ZZSettingViewController.m */; };
+		7C5A07352A565FB300F11162 /* ZZSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A07332A565FB300F11162 /* ZZSettingViewController.xib */; };
 		C1BFF211D92DC028618F7B22 /* Pods_ZZKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B8BA83C203AF83AC7CF3 /* Pods_ZZKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +62,15 @@
 		752E1B8A2A1E4C8100D17990 /* ZZKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752E1B8E2A1E4C8100D17990 /* ZZKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZKitUITests.m; sourceTree = "<group>"; };
 		752E1B902A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZKitUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7C5A07252A565F0600F11162 /* ZZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZHomeViewController.h; sourceTree = "<group>"; };
+		7C5A07262A565F0600F11162 /* ZZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHomeViewController.m; sourceTree = "<group>"; };
+		7C5A07272A565F0600F11162 /* ZZHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZHomeViewController.xib; sourceTree = "<group>"; };
+		7C5A072A2A565F1600F11162 /* ZZProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProfileViewController.h; sourceTree = "<group>"; };
+		7C5A072B2A565F1600F11162 /* ZZProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProfileViewController.m; sourceTree = "<group>"; };
+		7C5A072C2A565F1600F11162 /* ZZProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZProfileViewController.xib; sourceTree = "<group>"; };
+		7C5A07312A565FB300F11162 /* ZZSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSettingViewController.h; sourceTree = "<group>"; };
+		7C5A07322A565FB300F11162 /* ZZSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSettingViewController.m; sourceTree = "<group>"; };
+		7C5A07332A565FB300F11162 /* ZZSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZSettingViewController.xib; sourceTree = "<group>"; };
 		AB92B8BA83C203AF83AC7CF3 /* Pods_ZZKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC358D6CE527A36627CD4716 /* Pods-ZZKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZKit.debug.xcconfig"; path = "Target Support Files/Pods-ZZKit/Pods-ZZKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +143,9 @@
 		752E1B672A1E4C7F00D17990 /* ZZKit */ = {
 			isa = PBXGroup;
 			children = (
+				7C5A07222A565EE600F11162 /* ZZHome */,
+				7C5A07302A565F8800F11162 /* ZZSetting */,
+				7C5A07242A565EE600F11162 /* ZZProfile */,
 				752E20B42A1E521C00D17990 /* ZZLib */,
 				752E1B682A1E4C7F00D17990 /* AppDelegate.h */,
 				752E1B692A1E4C7F00D17990 /* AppDelegate.m */,
@@ -166,6 +184,36 @@
 			children = (
 			);
 			path = ZZLib;
+			sourceTree = "<group>";
+		};
+		7C5A07222A565EE600F11162 /* ZZHome */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A07252A565F0600F11162 /* ZZHomeViewController.h */,
+				7C5A07262A565F0600F11162 /* ZZHomeViewController.m */,
+				7C5A07272A565F0600F11162 /* ZZHomeViewController.xib */,
+			);
+			path = ZZHome;
+			sourceTree = "<group>";
+		};
+		7C5A07242A565EE600F11162 /* ZZProfile */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A072A2A565F1600F11162 /* ZZProfileViewController.h */,
+				7C5A072B2A565F1600F11162 /* ZZProfileViewController.m */,
+				7C5A072C2A565F1600F11162 /* ZZProfileViewController.xib */,
+			);
+			path = ZZProfile;
+			sourceTree = "<group>";
+		};
+		7C5A07302A565F8800F11162 /* ZZSetting */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A07312A565FB300F11162 /* ZZSettingViewController.h */,
+				7C5A07322A565FB300F11162 /* ZZSettingViewController.m */,
+				7C5A07332A565FB300F11162 /* ZZSettingViewController.xib */,
+			);
+			path = ZZSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				752E1B782A1E4C8100D17990 /* LaunchScreen.storyboard in Resources */,
+				7C5A07292A565F0600F11162 /* ZZHomeViewController.xib in Resources */,
+				7C5A072E2A565F1600F11162 /* ZZProfileViewController.xib in Resources */,
 				752E1B752A1E4C8100D17990 /* Assets.xcassets in Resources */,
 				752E1B732A1E4C7F00D17990 /* Main.storyboard in Resources */,
+				7C5A07352A565FB300F11162 /* ZZSettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +395,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5A072D2A565F1600F11162 /* ZZProfileViewController.m in Sources */,
 				752E1B702A1E4C7F00D17990 /* ViewController.m in Sources */,
 				752E1B6A2A1E4C7F00D17990 /* AppDelegate.m in Sources */,
 				752E1B7B2A1E4C8100D17990 /* main.m in Sources */,
+				7C5A07282A565F0600F11162 /* ZZHomeViewController.m in Sources */,
 				752E1B6D2A1E4C7F00D17990 /* SceneDelegate.m in Sources */,
+				7C5A07342A565FB300F11162 /* ZZSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
