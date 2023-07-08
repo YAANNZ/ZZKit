@@ -1,22 +1,21 @@
 //
-//  ZZSettingViewController.m
+//  ZZDiscoverViewController.m
 //  ZZKit
 //
-//  Created by yanan.zhu on 2023/7/6.
+//  Created by zhuyn on 2023/7/8.
 //
 
-#import "ZZSettingViewController.h"
+#import "ZZDiscoverViewController.h"
 
-@interface ZZSettingViewController ()
+@interface ZZDiscoverViewController ()
 
 @end
 
-@implementation ZZSettingViewController
+@implementation ZZDiscoverViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    // Do any additional setup after loading the view from its nib.
 }
 
 /*

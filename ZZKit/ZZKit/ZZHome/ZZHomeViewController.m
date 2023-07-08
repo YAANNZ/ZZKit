@@ -7,6 +7,7 @@
 
 #import "ZZHomeViewController.h"
 #import "ZZSettingViewController.h"
+#import "ZZDiscoverViewController.h"
 
 @interface ZZHomeViewController ()
 
@@ -17,15 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"Home";
+    
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(openSetting) forControlEvents:UIControlEventTouchUpInside];
     btn.frame = CGRectMake(100, 200, 100, 100);
     
+    UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [self.view addSubview:btn2];
+    [btn2 addTarget:self action:@selector(openDiscover) forControlEvents:UIControlEventTouchUpInside];
+    btn2.frame = CGRectMake(100, 300, 100, 100);
 }
 
 - (void)openSetting {
     ZZSettingViewController *vc = [ZZSettingViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)openDiscover {
+    ZZDiscoverViewController *vc = [[ZZDiscoverViewController alloc] initWithNibName:@"ZZDiscoverViewController" bundle:[NSBundle bundleForClass:[ZZDiscoverViewController class]]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

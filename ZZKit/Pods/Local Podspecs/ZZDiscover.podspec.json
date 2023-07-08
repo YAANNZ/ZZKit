@@ -1,0 +1,25 @@
+{
+  "name": "ZZDiscover",
+  "version": "0.0.1",
+  "summary": "ZZDiscover of ZZKit.",
+  "description": "ZZDiscover",
+  "homepage": "http://zhuyn/ZZDiscover",
+  "license": "MIT",
+  "authors": {
+    "zhuyn": "zhuynchn@163.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "http://zhuyn/ZZDiscover.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "*.{h,m}",
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Exclude",
+  "resources": "*.{xib,storyboard,wav,xml,bundle,caf,xcassets}"
+}

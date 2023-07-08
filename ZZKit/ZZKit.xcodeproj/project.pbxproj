@@ -146,7 +146,6 @@
 				7C5A07222A565EE600F11162 /* ZZHome */,
 				7C5A07302A565F8800F11162 /* ZZSetting */,
 				7C5A07242A565EE600F11162 /* ZZProfile */,
-				752E20B42A1E521C00D17990 /* ZZLib */,
 				752E1B682A1E4C7F00D17990 /* AppDelegate.h */,
 				752E1B692A1E4C7F00D17990 /* AppDelegate.m */,
 				752E1B6B2A1E4C7F00D17990 /* SceneDelegate.h */,
@@ -177,13 +176,6 @@
 				752E1B902A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m */,
 			);
 			path = ZZKitUITests;
-			sourceTree = "<group>";
-		};
-		752E20B42A1E521C00D17990 /* ZZLib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ZZLib;
 			sourceTree = "<group>";
 		};
 		7C5A07222A565EE600F11162 /* ZZHome */ = {

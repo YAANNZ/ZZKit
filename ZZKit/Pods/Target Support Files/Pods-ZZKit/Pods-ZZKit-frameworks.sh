@@ -177,10 +177,12 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZZDiscover/ZZDiscover.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ZZDiscover/ZZDiscover.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

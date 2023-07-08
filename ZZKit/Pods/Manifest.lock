@@ -3,20 +3,27 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+  - ZZDiscover (0.0.1)
 
 DEPENDENCIES:
   - CTMediator
   - YYKit
+  - ZZDiscover (from `../ZZDiscover`)
 
 SPEC REPOS:
   trunk:
     - CTMediator
     - YYKit
 
+EXTERNAL SOURCES:
+  ZZDiscover:
+    :path: "../ZZDiscover"
+
 SPEC CHECKSUMS:
   CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZZDiscover: 66d94be629f0a5ea876ea79a801143b16e84c1c3
 
-PODFILE CHECKSUM: 6ac4aa540b93f63d05c0941bf4067119fa125a63
+PODFILE CHECKSUM: d0d738db4898e86dea2821d5a6100cdab5a711d3
 
 COCOAPODS: 1.10.2
