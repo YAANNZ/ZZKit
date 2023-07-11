@@ -17,6 +17,7 @@
   },
   "source_files": [
     "*.{h,m}",
+    "**/*.{h,m}",
     "Classes",
     "Classes/**/*.{h,m}"
   ],

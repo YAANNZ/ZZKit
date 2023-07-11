@@ -6,14 +6,16 @@ target 'ZZKit' do
   use_frameworks!
 
   # Pods for ZZKit
-  pod 'CTMediator'
+  #pod 'CTMediator'
   pod 'YYKit'
-  
+
+  # private pods
+  #pod 'ZZKitSetting'
 
 
   # local pods
+  pod 'ZZDiscover_Category', :path => '../ZZDiscover_Category'
   pod 'ZZDiscover', :path => '../ZZDiscover'
-
 
 # https://blog.codemagic.io/code-signing-issues-in-xcode-14-and-how-to-fix-them/
 post_install do |installer|

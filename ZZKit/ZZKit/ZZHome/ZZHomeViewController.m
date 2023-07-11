@@ -6,8 +6,8 @@
 //
 
 #import "ZZHomeViewController.h"
-#import "ZZSettingViewController.h"
-#import "ZZDiscoverViewController.h"
+//#import "ZZSettingViewController.h"
+#import <ZZDiscover_Category/CTMediator+ZZDiscover.h>
 
 @interface ZZHomeViewController ()
 
@@ -32,13 +32,15 @@
 }
 
 - (void)openSetting {
-    ZZSettingViewController *vc = [ZZSettingViewController new];
-    [self.navigationController pushViewController:vc animated:YES];
+//    ZZSettingViewController *vc = [ZZSettingViewController new];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)openDiscover {
-    ZZDiscoverViewController *vc = [[ZZDiscoverViewController alloc] initWithNibName:@"ZZDiscoverViewController" bundle:[NSBundle bundleForClass:[ZZDiscoverViewController class]]];
+    UIViewController *vc = [[CTMediator sharedInstance] ZZDiscover_aViewController];
     [self.navigationController pushViewController:vc animated:YES];
+//    ZZDiscoverViewController *vc = [[ZZDiscoverViewController alloc] initWithNibName:@"ZZDiscoverViewController" bundle:[NSBundle bundleForClass:[ZZDiscoverViewController class]]];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

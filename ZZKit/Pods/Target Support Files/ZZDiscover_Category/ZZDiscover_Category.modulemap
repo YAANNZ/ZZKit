@@ -1,0 +1,6 @@
+framework module ZZDiscover_Category {
+  umbrella header "ZZDiscover_Category-umbrella.h"
+
+  export *
+  module * { export * }
+}

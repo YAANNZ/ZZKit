@@ -10,9 +10,8 @@
 #endif
 #endif
 
-#import "ZZDiscoverViewController.h"
-#import "Target_ZZDiscover.h"
+#import "CTMediator+ZZDiscover.h"
 
-FOUNDATION_EXPORT double ZZDiscoverVersionNumber;
-FOUNDATION_EXPORT const unsigned char ZZDiscoverVersionString[];
+FOUNDATION_EXPORT double ZZDiscover_CategoryVersionNumber;
+FOUNDATION_EXPORT const unsigned char ZZDiscover_CategoryVersionString[];
 
