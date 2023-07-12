@@ -3,15 +3,19 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
-  - ZZDiscover (0.0.1)
+  - ZZDiscover (0.0.1):
+    - ZZProfile_Category
   - ZZDiscover_Category (0.0.1):
     - CTMediator
     - ZZDiscover
+  - ZZProfile_Category (0.0.1):
+    - CTMediator
 
 DEPENDENCIES:
   - YYKit
   - ZZDiscover (from `../ZZDiscover`)
   - ZZDiscover_Category (from `../ZZDiscover_Category`)
+  - ZZProfile_Category (from `../ZZProfile_Category`)
 
 SPEC REPOS:
   trunk:
@@ -23,13 +27,16 @@ EXTERNAL SOURCES:
     :path: "../ZZDiscover"
   ZZDiscover_Category:
     :path: "../ZZDiscover_Category"
+  ZZProfile_Category:
+    :path: "../ZZProfile_Category"
 
 SPEC CHECKSUMS:
   CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
-  ZZDiscover: 8020657c21b0db33f030a4df11c5b41c387e72d4
+  ZZDiscover: e25de5d17ccb6caed89e6b4514dfaeb2901cabf8
   ZZDiscover_Category: 03ff888baa81decf737f080e3e2fee8a3ca53f5f
+  ZZProfile_Category: 88daf5e6679269e9827c460e8a21fe6a8b64a2b5
 
-PODFILE CHECKSUM: cd094bdc03946a6a3de149ea817cfa7455c898f1
+PODFILE CHECKSUM: ffc3600c0164eb25709176c21b9e6ee52b48b349
 
 COCOAPODS: 1.10.2

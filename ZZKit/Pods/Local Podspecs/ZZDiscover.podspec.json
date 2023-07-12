@@ -22,5 +22,10 @@
     "Classes/**/*.{h,m}"
   ],
   "exclude_files": "Exclude",
-  "resources": "*.{xib,storyboard,wav,xml,bundle,caf,xcassets}"
+  "resources": "*.{xib,storyboard,wav,xml,bundle,caf,xcassets}",
+  "dependencies": {
+    "ZZProfile_Category": [
+
+    ]
+  }
 }

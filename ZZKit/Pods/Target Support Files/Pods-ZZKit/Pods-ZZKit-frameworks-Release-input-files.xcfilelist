@@ -3,3 +3,4 @@ ${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
 ${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework
 ${BUILT_PRODUCTS_DIR}/ZZDiscover/ZZDiscover.framework
 ${BUILT_PRODUCTS_DIR}/ZZDiscover_Category/ZZDiscover_Category.framework
+${BUILT_PRODUCTS_DIR}/ZZProfile_Category/ZZProfile_Category.framework

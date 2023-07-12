@@ -17,6 +17,7 @@
 		752E1B852A1E4C8100D17990 /* ZZKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B842A1E4C8100D17990 /* ZZKitTests.m */; };
 		752E1B8F2A1E4C8100D17990 /* ZZKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B8E2A1E4C8100D17990 /* ZZKitUITests.m */; };
 		752E1B912A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752E1B902A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m */; };
+		75F71ED42A5EEC6B00B103A3 /* Target_ZZProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F71ED32A5EEC6B00B103A3 /* Target_ZZProfile.m */; };
 		7C5A07282A565F0600F11162 /* ZZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A07262A565F0600F11162 /* ZZHomeViewController.m */; };
 		7C5A07292A565F0600F11162 /* ZZHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5A07272A565F0600F11162 /* ZZHomeViewController.xib */; };
 		7C5A072D2A565F1600F11162 /* ZZProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A072B2A565F1600F11162 /* ZZProfileViewController.m */; };
@@ -60,6 +61,8 @@
 		752E1B8A2A1E4C8100D17990 /* ZZKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752E1B8E2A1E4C8100D17990 /* ZZKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZKitUITests.m; sourceTree = "<group>"; };
 		752E1B902A1E4C8100D17990 /* ZZKitUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZKitUITestsLaunchTests.m; sourceTree = "<group>"; };
+		75F71ED22A5EEC6B00B103A3 /* Target_ZZProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ZZProfile.h; sourceTree = "<group>"; };
+		75F71ED32A5EEC6B00B103A3 /* Target_ZZProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ZZProfile.m; sourceTree = "<group>"; };
 		7C5A07252A565F0600F11162 /* ZZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZHomeViewController.h; sourceTree = "<group>"; };
 		7C5A07262A565F0600F11162 /* ZZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHomeViewController.m; sourceTree = "<group>"; };
 		7C5A07272A565F0600F11162 /* ZZHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZHomeViewController.xib; sourceTree = "<group>"; };
@@ -172,6 +175,15 @@
 			path = ZZKitUITests;
 			sourceTree = "<group>";
 		};
+		75F71ED12A5EEC4300B103A3 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				75F71ED22A5EEC6B00B103A3 /* Target_ZZProfile.h */,
+				75F71ED32A5EEC6B00B103A3 /* Target_ZZProfile.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
 		7C5A07222A565EE600F11162 /* ZZHome */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +197,7 @@
 		7C5A07242A565EE600F11162 /* ZZProfile */ = {
 			isa = PBXGroup;
 			children = (
+				75F71ED12A5EEC4300B103A3 /* Targets */,
 				7C5A072A2A565F1600F11162 /* ZZProfileViewController.h */,
 				7C5A072B2A565F1600F11162 /* ZZProfileViewController.m */,
 				7C5A072C2A565F1600F11162 /* ZZProfileViewController.xib */,
@@ -373,6 +386,7 @@
 				7C5A072D2A565F1600F11162 /* ZZProfileViewController.m in Sources */,
 				752E1B702A1E4C7F00D17990 /* ViewController.m in Sources */,
 				752E1B6A2A1E4C7F00D17990 /* AppDelegate.m in Sources */,
+				75F71ED42A5EEC6B00B103A3 /* Target_ZZProfile.m in Sources */,
 				752E1B7B2A1E4C8100D17990 /* main.m in Sources */,
 				7C5A07282A565F0600F11162 /* ZZHomeViewController.m in Sources */,
 				752E1B6D2A1E4C7F00D17990 /* SceneDelegate.m in Sources */,

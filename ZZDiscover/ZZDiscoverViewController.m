@@ -6,6 +6,7 @@
 //
 
 #import "ZZDiscoverViewController.h"
+#import <ZZProfile_Category/CTMediator+ZZProfile.h>
 
 @interface ZZDiscoverViewController ()
 
@@ -16,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIViewController *vc = [[CTMediator sharedInstance] ZZProfile_viewControllerWithContentText:@"DiscoverToProfile"];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*
